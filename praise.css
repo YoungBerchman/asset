@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header Styling*/
+.Header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* position: fixed; */
+}
+.Header-Wrapp{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #eff1f3;
+}
+.Logo{
+    font-size: 15px;
+    font-weight: bold;
+}
+.All{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.Navigations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: all 350ms;
+    font-size: 17px;
+    width: 60%;
+    height: 9vh;
+
+    nav{
+        cursor: pointer;
+    }
+    div:hover{
+        background-color: rgb(215, 214, 214);
+        padding: 20px;
+        transition: all 350ms;
+        border-radius: 5px;
+    }
+}
+.CTA-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.CTA-Earn{
+    background-color: rgb(215, 214, 214);
+    color: blue;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.CTA-Login{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e0ecfd;
+    font-weight: bold;
+}
+.CTA-Login:hover{
+    background-color: rgb(215, 214, 214);
+    transition: all 350ms;
+}
+.CTA-Apply{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.CTA-Apply:hover{
+    background-color: white;
+    color: blue;
+    transition: all 500ms;
+}
+/* Footer Stylings*/
+.Footer-Section{
+    height: 90vh;
+    width: 100%;
+    background-color: #000812;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer-Main{
+    height: 100%;
+    width: 90%;
+    background-color: blue;
+}
+.Footer-Holder{
+    height: 100%;
+    width: 100%;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer-Line{
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About-Company{
+    width: 33%;
+    height: 100%;
+    background-color: peru;
+}
+.abt{
+    width: 100%;
+    height: 40%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-abt{
+    width: 100%;
+    height: 80%;
+    background-color: green;
+    line-height: 19px;
+
+}
+.tel{
+    color: grey;
+    margin-top: 5px;
+}
+.alt{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: grey;
+}
+.github{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: white;
+}
+span{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mini-img{
+    margin-top: 20px;
+}
+.abt1{
+    width: 100%;
+    height: 29%;
+    background-color: green;
+}
+.abt2{
+    width: 90%;
+    height: 50%;
+    background-color: limegreen;
+    display: flex;
+    justify-content: space-between;
+}
+.abt3{
+    height: 50%;
+    width: 90%;
+    color: white;
+    font-weight: bold;
+}
+.footer2{
+    width: 90%;
+    height: 100%;
+}
+.All-FooterNavs{
+    width: 80%;
+    height: 100%;
+}
+nav:hover{text-decoration: underline;}
+.Navs-Up{
+    width: 100%;
+    height: 40%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.miniNavs-up{
+    width: 80%;
+    height: 80%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+.Navs-Down{
+    width: 100%;
+    height: 70%;
+    background-color: darkorchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AbtUs{
+    line-height: 18px;
+}
+.font nav{
+    color: rgb(193, 194, 196);
+}
+.font1 nav{
+    color: rgb(193, 194, 196);
+}
+.mini nav{
+    color: rgb(193, 194, 196);
+}
+.AbtUs nav{
+    color: rgb(193, 194, 196);
+}
+.mini-sec{
+    color: rgb(193, 194, 196);
+}
+.mini-com nav{
+    color: rgb(193, 194, 196);
+}
+.miniNavs-Down{
+    width: 52%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+}
+.font{
+    font-size: 16px;
+    line-height: 14px;
+    font-weight: lighter;
+}
+.font1{
+    font-size: 17.4px;
+    line-height: 14px;
+    font-weight: lighter;
+}
+.mini{
+    line-height: 14px;
+}
+.pix{
+    width: 80%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+}
+.pix1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 5vh;
+}
+.mini-sec{
+    line-height: 14.9px;
+}
+.footer3{
+    width: 100%;
+    height: 4vh;
+    background-color: yellow;
+    color: white;
+}
+.footer4{
+    width: 50%;
+    height: 10vh;
+    background-color: red;
+    margin-top: 30px;
+    color: rgb(253, 251, 251);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
